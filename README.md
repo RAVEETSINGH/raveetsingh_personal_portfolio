@@ -1,10 +1,10 @@
-# raveetsingh_personal_portfolio
 # Raveet Singh - Portfolio
 
 Welcome to my personal portfolio! This website showcases my skills, services, and projects as a front-end developer. It is a responsive, clean, and interactive design that highlights my expertise in web development.
 
 ## Table of Contents
 - [About](#about)
+- [Live Demo](#live-demo)
 - [Services](#services)
 - [Portfolio](#portfolio)
 - [Contact](#contact)
@@ -15,6 +15,9 @@ Welcome to my personal portfolio! This website showcases my skills, services, an
 
 ## About
 I am Raveet Singh, a front-end web developer with a passion for creating beautiful and responsive websites. I specialize in HTML, CSS, JavaScript, and modern web technologies to build user-friendly web applications.
+
+## Live Demo
+Check out the live version of my portfolio: [Live Demo]([https://your-live-site-url.com](https://raveetsingh.github.io/raveetsingh_personal_portfolio/)
 
 ## Services
 - **Web Design**: Responsive and user-friendly designs tailored to your needs.
