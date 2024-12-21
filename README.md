@@ -40,10 +40,10 @@ Feel free to reach out to me through the contact section of the website, or thro
 - Responsive Design
 - UI/UX Design
 
-##Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
 
-##License
+## License
 This project is open source and available under the MIT License. See the LICENSE file for more details
 
 ## Installation
