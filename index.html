@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.gif" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi, I'm <span>Raveet</span></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a dedicated Computer Science Engineering student, I bring a solid foundation in frontend development,Web Desgning complemented by a fervent enthusiasm for staying at the forefront of technological advancements. Eager to embrace new challenges, I possess a proactive mindset and a commitment to continuous learning, ensuring I stay adept at the latest trends and technologies shaping the dynamic landscape of the IT industry.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Website Desgning</li>
+                        <li><span>HTML/CSS/JS</span><br>Responsive Website</li>
+                        <li><span>Git/VScode</span><br>Tools</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>Qspiders</span><br> Internship on C and Data Structures</li>
+                        <li><span>Societal</span><br>Societal Internship at Gram Panchayat </li>
+                        <li><span>Unified Mentor</span><br>Internship on Web Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>B.E in Computer Science at Canara Engineering College .</li>
+                        <li><span>2021</span><br>12<sup>th</sup>Grade at St. Peter’s. Hr. Sec. School .</li>
+                        <li><span>2019</span><br>10<sup>th</sup>Grade at St. Peter’s. Hr. Sec. School .</li>
+                    </ul>
+                </div>
+                    <a href="My Resume.pdf" class="resume" download>Resume</a>
+                              
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2> Responsive Web Design</h2>
+                <p>Creating websites that look and perform flawlessly on all devices, from desktops to smartphones.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Interactive Web Development</h2>
+                <p>Building engaging and dynamic user interfaces using animations and interactive elements for an enhanced user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Clean & Maintainable Code</h2>
+                <p>Writing structured, reusable, and well-documented code to ensure scalability and ease of maintenance.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/review.png">
+                <div class="layer">
+                    <h3>LOCAL-E, ADVANCED ANALYSIS OF ONLINE PRODUCT REVIEWS</h3>
+                    <p>With the proliferation of e-commerce, businesses face the challenge of extracting actionable insights from vast, unstructured 
+                        online product reviews.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/virtual2.png">
+                <div class="layer">
+                    <h3>VIRTUAL VOLUME GESTURE CONTROL</h3>
+                    <p>The website features a user-friendly interface for controlling the volume with two fingers of our hand.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tulsi.png">
+                <div class="layer">
+                    <h3>DEEP LEARNING APPROACH FOR IDENTIFICATION AND CLASSIFICATION OF TULSI LEAF DISEASE</h3>
+                    <p>To accurately identify and classify Tulsi leaves for quality and disease detection.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> raveetsingh1607@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 6006724363</p>
+
+
+                <div class="social-icons">
+                    <a href="http://linkedin.com/in/raveet-singh-7167b3228" target="_blank" class="linkedin">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://github.com/RAVEETSINGH" target="_blank" class="github">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="https://wa.me/+916006724363" target="_blank" class="whatsapp">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/raveet_singh1015?igsh=MTRvZGtvNjZzMzNnZg%3D%3D&utm_source=qr" target="_blank"
+                        class="instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="mailto:raveetsingh1607@gmail.com" target="_blank" class="email">
+                        <ion-icon name="mail"></ion-icon>
+                    </a>
+                    <a href="tel:+916006724363" class="call">
+                        <ion-icon name="call"></ion-icon>
+                    </a>
+                </div>
+
+
+
+                <a href="My Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mr.Singh. Made wtih <i class="fas fa-heart"></i> by <b>Raveet Singh</b></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbziEjylKETDx7aheG0kDXkITj312ImZM2h9Zi98BKYc84ZETYcE_t85amU8s81w4nnH/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+></script>
+</body>
+</html>
